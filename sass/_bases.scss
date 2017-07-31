@@ -1,4 +1,6 @@
 
+
+//animated hamburger nav
 .wrapper {
   position:relative;
   overflow:hidden;
@@ -121,4 +123,10 @@ a {
 
 .mobile-nav a:hover {
   color:#2980b9;
+}
+
+//seccion uno
+.seccion_uno {
+  background-color: #6a6a6a;
+  background-image: url("img/fondo-bienvenida.jpg");
 }
