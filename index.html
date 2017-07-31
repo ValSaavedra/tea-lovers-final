@@ -3,28 +3,42 @@
 <head>
 	<title>Tea Lovers</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">         
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 	<header>
 		<nav>
 			 <!-- nav fijo con menu hamburguesa ,modal  -->
-			 HOME
-			 NUESTRA PASIÓN
-			 PREGUNTAS
-			 LOS CAMPOS
+			<div class="wrapper">
+				<div class="mobile">
+	      	<div class="hamburger-menu">
+	          <div class="bar"></div>	
+	     	 </div> <!-- ham menu -->
+	    	</div> <!-- mobile -->
+
+				<div class="mobile-nav hide">
+			    <ul>
+			      <li><a href="">HOME</a></li>
+			      <li><a href="">NUESTRA PASIÓN</a></li>
+			      <li><a href="">PREGUNTAS</a></li>
+			      <li><a href="">LOS CAMPOS</a></li>
+			    </ul>
+			  </div>	
+			</div> <!-- wrapper -->
+		</nav>
 	</header>
 	
 	<section class="seccion_uno">
 	 <!--  imágen de fondo, logo,  -->
 	 <div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<img src="assets/img/logo.png">
+				<div class="col l12 m12 s12">
+					<img class="logo" src="assets/img/logo.png">
 					<img src="assets/img/tea-lovers-logo.png">
 				</div> <!-- col  -->
 			</div> <!-- row -->
@@ -32,34 +46,64 @@
 	</section>
 
 	<section class="seccion_dos">
+		<div class="container">
+			<div class="row">
+				<div class="col l12 m12 s12">
+					<iframe src="https://player.vimeo.com/video/148993635" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</div> <!-- row -->
+		</div> <!-- container -->
 		<!-- video -->
-		<iframe src="https://player.vimeo.com/video/148993635" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</section>
 		 
 	<section class="seccion_tres">
-		<img src="assets/img/logo.png">
-		<h1>NUESTRA<br>PASIÓN</h1>
-		<p>El té es una bebida utilizada habitualmente por la medicina natural de las civilizaciones orientales para aprovechar sus propiedades terapéuticas. Algunas de sus versiones son:</p>
+		<div class="container">
+			<div class="row">
+				<img class="logo" src="assets/img/logo.png">
+				<div class="col l12 m12 s12">
+					<h1>NUESTRA<br>PASIÓN</h1>
+					<p>El té es una bebida utilizada habitualmente por la medicina natural de las civilizaciones orientales para aprovechar sus propiedades terapéuticas. Algunas de sus versiones son:</p>
+				</div>			
+			</div> <!-- row -->
+		</div> <!-- container -->
 	</section>
 
 	<section class="seccion_cuatro">
-		<h3>Negro</h3>
-			<p>Disminuye la absorción de colesterol y reduce la posibilidad de sufrir enfermedades cardiovasculares</p>
-		<h3>Verde</h3>
-			<p>Reduce la formación de coágulos anormales favoreciendo nuestro corazón, además disminuye los niveles de azúcar.</p>
-		<h3>Rojo</h3>
-			<p>Para la depresión, la melancolía y el mal humor. Adicionalmente facilita la digestión, ayuda a desintoxicar el organismo.</p>
-		<h3>Blanco</h3>
-			<p>Disminuye la actividad de las enzimas que disminuyen la producción de elastina y colágeno en nuestra piel.</p>
-		<h3>Oolong</h3>
-			<p>Puede disminuir el nivel de colesterol en la sangre y también está recomendado para bajar de peso.</p>
+		<div class="container">
+			<div class="row">
+				<div class="col l12 m12 s12">
+					<div class="row">
+						<div class="col l2 offset-l1 col m2 offset m1 col s12">
+							<h3>Negro</h3>
+								<p>Disminuye la absorción de colesterol y reduce la posibilidad de sufrir enfermedades cardiovasculares</p>
+						</div>
+						<div class="col l2 col m2 col s12">
+							<h3>Verde</h3>
+								<p>Reduce la formación de coágulos anormales favoreciendo nuestro corazón, además disminuye los niveles de azúcar.</p>
+						</div>
+						<div class="col l2 col m2 col s12">
+							<h3>Rojo</h3>
+								<p>Para la depresión, la melancolía y el mal humor. Adicionalmente facilita la digestión, ayuda a desintoxicar el organismo.</p>
+						</div>
+						<div class="col l2 col m2 col s12">
+							<h3>Blanco</h3>
+								<p>Disminuye la actividad de las enzimas que disminuyen la producción de elastina y colágeno en nuestra piel.</p>
+						</div>
+						<div class="col l2 col m2 col s12">
+							<h3>Oolong</h3>
+								<p>Puede disminuir el nivel de colesterol en la sangre y también está recomendado para bajar de peso.</p>
+						</div>
+					</div>
+				</div> <!-- col -->
+			</div> <!-- row -->
+		</div> <!-- container -->
 	</section>
 
 	<section class="seccion_cinco">
 		<!-- HOVER EN LAS IMÁGENES CON TRANSPARENCIA GRIS Y AGRANDA DESDE EL MEDIO -->
 		<div class="container">
 			<div class="row">
-				<div class="col lg 6">
+				<div class="col l6">
 					<h4>¿Todas las infusiones son té?</h4>
 				</div> <!-- col 6 -->
 				<div class="row">
@@ -82,7 +126,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<img src="assets/img/logo.png">
+					<img class="logo" src="assets/img/logo.png">
 					<h1>PREGUNTAS SOBRE EL TÉ</h1>
 				</div> <!-- col  -->
 			</div> <!-- row -->
@@ -92,7 +136,7 @@
 	<section class="seccion_siete">
 		<div class="container">
 			<div class="row"> <!-- primera seccion -->
-				<div class="col l6 ">
+				<div class="col l6 s12">
 					<h3>¿Cuánto té debo echar para una taza?</h3>
 						<p>Lo ideal son 3 gramos por taza. Para calcular cuánto son tres gramos nosotros utilizamos y vendemos una cuchara medidora, no obstante, si no se tiene basta con utilizar una cuchara de postre. Es importante saber que la cantidad de hebras que echemos solo va a influir en la intensidad del sabor del té y teniendo en cuenta que hay personas que les gusta el té más intenso que a otras, se puede modificar la cantidad que se echa sin problemas. También debemos tener en cuenta que el Té Blanco tiene mucho más volumen que el resto de tés y por tanto, necesitaremos más cantidad para lograr los 3 gramos recomendados. </p>
 				</div> <!-- col 6  -->
@@ -102,10 +146,10 @@
 				</div> <!-- col 6 img  -->
 			</div> <!-- row -->
 			<div class="row"> <!-- segunda seccion -->
-				<div class="col-l6 icon2">
+				<div class="col l6 icon2">
 					<img src="assets/img/icon-2.png">				
 				</div> <!-- col 6 -->
-				<div class="col-l6">
+				<div class="col l6 s12">
 					<h3>¿Debo hervir el agua para hacer té?</h3>
 						<p>Nunca debemos echar agua hirviendo sobre las hebras del té.  Si tenemos agua hirviendo la podremos utilizar siempre y cuando la hagamos disminuir de temperatura, bien esperando o bien mezclándola con agua fría.  Hay un caso en el que es recomendable hervir el agua y es cuando queremos utilizar agua corriente y ésta es dura. En este caso deberemos filtrarla, hervirla y dejarla reposar unos minutos para que los minerales precipiten y su temperatura disminuya. Hay unas reglas básicas de temperatura del agua que debemos cumplir si queremos obtener la mejor versión de nuestro té: </p>
 						<ul>
@@ -116,11 +160,11 @@
 				</div> <!-- col 6  -->								
 			</div> <!-- row -->
 			<div class="row"> <!-- tercera seccion -->
-				<div class="col l6 ">
+				<div class="col l6 s12">
 					<h3>¿Cuántos tés e infusiones son recomendables al día?</h3>
 						<p>Cada persona tiene una tolerancia a la teína distinta de modo que tendrá que ver cuántas tazas de té puede tomar al día. No obstante, podemos compaginar tomar té con tomar otras infusiones sin teína como el rooibos, las infusiones frutales, las especiadas, etc. Y de esta forma no nos tendremos que preocupar por si nos estimula demasiado.</p>
 				</div> <!-- col 6  -->
-				<div class="col l6 icon1">
+				<div class="col l6 icon3">
 						<!-- imágenes van en un background de color y centradas  -->
 					<img src="assets/img/icon-3.png">
 				</div> <!-- col 6 img  -->
@@ -131,8 +175,8 @@
 	<section class="seccion_ocho">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<img src="assets/img/logo.png">
+				<div class="col l12">  <!-- en s no se ve -->
+					<img class="logo" src="assets/img/logo.png">
 					<h1>LOS CAMPOS</h1>
 				</div> <!-- col  -->
 			</div> <!-- row -->
@@ -142,7 +186,7 @@
 	<section class="seccion_nueve">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="col l12 col m12">  <!-- en s no se ve -->
 					<div class="carousel carousel-slider">
 				    <a class="carousel-item" href="#one!"><img src="assets/img/slide1.jpg"></a>
 				    <a class="carousel-item" href="#two!"><img src="assets/img/slide2.jpg"></a>
@@ -156,12 +200,14 @@
 	<section class="seccion_diez">
 		<div class="container">
 			<div class="row">
-				<div class="col-l7">
-					<img src="assets/img/logo.png">
-					<h1>AMAMOS EL TÉ</h1>
+				<div class="col l7 s12">
+					<img class="logo" src="assets/img/logo.png">
+					<h3>AMAMOS EL TÉ</h3>
+					<hr>
 						<p>El té es una de las bebidas más populares y antiguas en el mundo y aproximadamente la mitad de la población mundial consume té.
 						Muchas personas prefieren el té antes que otras bebidas o el agua para hidratarse. Pero, por qué amamos el té? 
 						Te mostramos algunas razones: </p>
+
 						<ul>
 						  <li>Porque tiene infinidades de sabores y formatos.</li>
 						  <li>Porque tiene antioxidantes que ayudan a retrasar el envejecimiento</li>
@@ -170,9 +216,10 @@
 						  <li>Porque te mantiene hidratado</li>
 						  <li>Porque combate la anemia</li>
 						</ul>
+
 						<p>Hay te verde, rojo, blanco, etc. Sólo debes elegir tu favorito. Para esto te recomendamos ir a Té Encanto, tienda ubicada en el Barrio Italia y que se dedica a la venta de té en hoja saborizados y accesorios. Descubre tu sabor favorito. Descarga Beekn App y ya podrás obtener grandes beneficios! </p>
 				</div> <!-- col  -->
-				<div class="col l5">
+				<div class="col l5 s12">
 					<img src="assets/img/paquete.png">
 				</div>
 			</div> <!-- row -->
@@ -183,11 +230,14 @@
 		<img src="assets/img/logo.png">
 		<p>Dirección Té Encanto: Av. Italia 1317, Providencia.</p>
 	</footer>
-
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!-- Materialize Compiled and minified JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+	
+	<!-- jquery -->
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<!-- materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>  
+  <!-- js -->
 	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
